@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+//Navigation Bar Font
+$navBarFont: 'Ubuntu';
+
 @font-face {
     font-family: 'pacificoregular';
     src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
@@ -16,7 +19,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 main {
     background-image: url(../img/img0.jpg);
     background-size: cover;
@@ -27,7 +29,7 @@ nav#pcNavBar {
     ul {
         li {
             a {
-                font-family: 'Ubuntu';
+                font-family: $navBarFont;
                 font-size: 3vh;
             }
         }
@@ -38,7 +40,7 @@ nav#mobileNavBar {
         ul {
             li {
                 a {
-                    font-family: 'Ubuntu';
+                    font-family: $navBarFont;
                 }
             }
         }
@@ -47,6 +49,7 @@ nav#mobileNavBar {
 footer {
     div.row {
         span {
+            font-family: $navBarFont;
             color: #bbc2ca;
         }
         .col-12 {
@@ -64,16 +67,18 @@ div.navBottom {
         li {
             display: block;
             a {
+                font-family: $navBarFont;
                 color: white;
             }
             span {
+                font-family: $navBarFont;
                 padding-bottom: 10px;
                 color: #8b9299;
             }
         }
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
     nav#mobileNavBar {
         display: auto;
     }

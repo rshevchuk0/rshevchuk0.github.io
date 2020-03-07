@@ -19,13 +19,14 @@ main {
   height: calc(100vh - 54px); }
 
 nav#pcNavBar ul li a {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-size: 3vh; }
 
 nav#mobileNavBar div#mNav ul li a {
-  font-family: 'Ubuntu'; }
+  font-family: "Ubuntu"; }
 
 footer div.row span {
+  font-family: "Ubuntu";
   color: #bbc2ca; }
 footer div.row .col-12 {
   margin-bottom: 15px; }
@@ -38,8 +39,10 @@ div.navBottom ul {
   div.navBottom ul li {
     display: block; }
     div.navBottom ul li a {
+      font-family: "Ubuntu";
       color: white; }
     div.navBottom ul li span {
+      font-family: "Ubuntu";
       padding-bottom: 10px;
       color: #8b9299; }
 
