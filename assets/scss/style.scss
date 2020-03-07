@@ -4,6 +4,10 @@
 }
 //Navigation Bar Font
 $navBarFont: 'Ubuntu';
+//Colors
+$grey: #343a40;
+$lightGrey: #8b9299;
+$llightGrey: #bbc2ca;
 
 @font-face {
     font-family: 'pacificoregular';
@@ -47,10 +51,11 @@ nav#mobileNavBar {
     }
 }
 footer {
+    background-color: $grey;
     div.row {
         span {
             font-family: $navBarFont;
-            color: #bbc2ca;
+            color: $llightGrey;
         }
         .col-12 {
             margin-bottom: 15px;
@@ -73,7 +78,7 @@ div.navBottom {
             span {
                 font-family: $navBarFont;
                 padding-bottom: 10px;
-                color: #8b9299;
+                color: $lightGrey;
             }
         }
     }
