@@ -1,10 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-
 @font-face {
     font-family: 'pacificoregular';
     src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
@@ -13,99 +10,31 @@
     font-style: normal;
 
 }
-body{
-    background-color: #402f4e;
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-header{
-    background-color: #1a0726; //#2c0c40 #b5d1ff
-    div.container-fluid{
-        text-align: center;
-        div.row {
-            span#logo_text {
-                display: inline-block;
-                color: white;
-                margin-left: 3vw;
-                margin-bottom: 3vh;
-                font-family: 'pacificoregular';
-                @media screen and (min-width: 360px) {
-                    font-size: 4vh;
-                }
-    
-            }
-            img#logo {
-                margin: 15px;
-                margin-left: 0;
-                vertical-align: middle;
-                height: 15vh;
-            }
-        }
-    }
-    //border-radius: 0 0 5px, 5px;
+
+main {
+    background-image: url(../img/img0.jpg);
+    background-size: cover;
+    height: 124vh;
 }
-nav {
-    ul.sidenav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 25%;
-        background-color: #6b587a;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
-        li {
-            a {
-                border: 2px solid #1a0726;
-                display: block;
-                color: #fff;
-                padding: 8px 16px;
-                margin: 3px;
-                text-decoration: none;
-            }
-            a.active {
-                background-color: #4CAF50;
-                color: white;
-            }
-            a:hover:not(.active) {
-                background-color: #555;
-                color: white;
-            }
-        }
+@media screen and (max-width: 578px) {
+    nav#mobileNavBar {
+        display: auto;
     }
-    @media screen and (max-width: 1920px) {
-        ul.sidenav {
-          width: 100%;
-          height: auto;
-          position: relative;
-          li {
-            a {
-                float: left;
-                padding: 15px;
-            }
-          }
-        }
-    }
-    @media screen and (max-width: 768px) {
-        ul.sidenav li a {
-          text-align: center;
-          float: none;
-        }
+    nav#pcNavBar {
+        display: none;
     }
 }
-div.content {
-    color: white;
-    margin-left: 25%;
-    padding: 1px 16px;
-}
-@media screen and (max-width: 1920px) {
-    div.content {
-        margin-left: 0;
-        padding: 1px 16px;
+@media screen and (min-width: 578px) {
+    nav#mobileNavBar {
+        display: none;
     }
-}
-@media screen and (min-width: 768px) {
-    div.content {
-        //margin-left: 25%;
-        padding: 1px 16px;
-        font-size: 2em;
+    nav#pcNavBar {
+        display: auto;
     }
 }

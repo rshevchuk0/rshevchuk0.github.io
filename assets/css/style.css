@@ -1,82 +1,33 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
 @font-face {
   font-family: 'pacificoregular';
   src: url("../fonts/pacifico-regular-webfont.woff2") format("woff2"), url("../fonts/pacifico-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
-body {
-  background-color: #402f4e; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/Ubuntu.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+main {
+  background-image: url(../img/img0.jpg);
+  background-size: cover;
+  height: 124vh; }
 
-header {
-  background-color: #1a0726; }
-  header div.container-fluid {
-    text-align: center; }
-    header div.container-fluid div.row span#logo_text {
-      display: inline-block;
-      color: white;
-      margin-left: 3vw;
-      margin-bottom: 3vh;
-      font-family: 'pacificoregular'; }
-      @media screen and (min-width: 360px) {
-        header div.container-fluid div.row span#logo_text {
-          font-size: 4vh; } }
-    header div.container-fluid div.row img#logo {
-      margin: 15px;
-      margin-left: 0;
-      vertical-align: middle;
-      height: 15vh; }
+@media screen and (max-width: 578px) {
+  nav#mobileNavBar {
+    display: auto; }
 
-nav ul.sidenav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #6b587a;
-  position: fixed;
-  height: 100%;
-  overflow: auto; }
-  nav ul.sidenav li a {
-    border: 2px solid #1a0726;
-    display: block;
-    color: #fff;
-    padding: 8px 16px;
-    margin: 3px;
-    text-decoration: none; }
-  nav ul.sidenav li a.active {
-    background-color: #4CAF50;
-    color: white; }
-  nav ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
-    color: white; }
-@media screen and (max-width: 1920px) {
-  nav ul.sidenav {
-    width: 100%;
-    height: auto;
-    position: relative; }
-    nav ul.sidenav li a {
-      float: left;
-      padding: 15px; } }
-@media screen and (max-width: 768px) {
-  nav ul.sidenav li a {
-    text-align: center;
-    float: none; } }
+  nav#pcNavBar {
+    display: none; } }
+@media screen and (min-width: 578px) {
+  nav#mobileNavBar {
+    display: none; }
 
-div.content {
-  color: white;
-  margin-left: 25%;
-  padding: 1px 16px; }
-
-@media screen and (max-width: 1920px) {
-  div.content {
-    margin-left: 0;
-    padding: 1px 16px; } }
-@media screen and (min-width: 768px) {
-  div.content {
-    padding: 1px 16px;
-    font-size: 2em; } }
+  nav#pcNavBar {
+    display: auto; } }
 
 /*# sourceMappingURL=style.css.map */
