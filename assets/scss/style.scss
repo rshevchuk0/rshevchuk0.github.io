@@ -26,7 +26,19 @@ nav#pcNavBar {
     ul {
         li {
             a {
+                font-family: 'Ubuntu';
                 font-size: 3vh;
+            }
+        }
+    }
+}
+nav#mobileNavBar {
+    div#mNav {
+        ul {
+            li {
+                a {
+                    font-family: 'Ubuntu';
+                }
             }
         }
     }
