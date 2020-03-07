@@ -44,7 +44,36 @@ nav#mobileNavBar {
         }
     }
 }
-@media screen and (max-width: 578px) {
+footer {
+    div.row {
+        span {
+            color: #bbc2ca;
+        }
+        .col-12 {
+            margin-bottom: 15px;
+        }
+    }
+    img {
+        height: 32px;
+        width: 32px;
+    }
+}
+div.navBottom {
+    ul {
+        list-style-type: none;
+        li {
+            display: block;
+            a {
+                color: white;
+            }
+            span {
+                padding-bottom: 10px;
+                color: #8b9299;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
     nav#mobileNavBar {
         display: auto;
     }
@@ -56,7 +85,7 @@ nav#mobileNavBar {
         padding: 10px;
     }
 }
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 576px) {
     nav#mobileNavBar {
         display: none;
     }

@@ -25,7 +25,25 @@ nav#pcNavBar ul li a {
 nav#mobileNavBar div#mNav ul li a {
   font-family: 'Ubuntu'; }
 
-@media screen and (max-width: 578px) {
+footer div.row span {
+  color: #bbc2ca; }
+footer div.row .col-12 {
+  margin-bottom: 15px; }
+footer img {
+  height: 32px;
+  width: 32px; }
+
+div.navBottom ul {
+  list-style-type: none; }
+  div.navBottom ul li {
+    display: block; }
+    div.navBottom ul li a {
+      color: white; }
+    div.navBottom ul li span {
+      padding-bottom: 10px;
+      color: #8b9299; }
+
+@media screen and (max-width: 576px) {
   nav#mobileNavBar {
     display: auto; }
 
@@ -35,7 +53,7 @@ nav#mobileNavBar div#mNav ul li a {
   footer {
     color: white;
     padding: 10px; } }
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 576px) {
   nav#mobileNavBar {
     display: none; }
 
