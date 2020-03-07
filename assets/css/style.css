@@ -18,7 +18,7 @@ main {
   height: calc(100vh - 54px); }
 
 nav#pcNavBar ul li a {
-  font-size: 1.5rem; }
+  font-size: 3vh; }
 
 @media screen and (max-width: 578px) {
   nav#mobileNavBar {
