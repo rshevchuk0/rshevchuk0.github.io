@@ -20,7 +20,10 @@
 main {
     background-image: url(../img/img0.jpg);
     background-size: cover;
-    height: 124vh;
+    height: calc(100vh - 54px);
+}
+footer {
+    color: white;
 }
 @media screen and (max-width: 578px) {
     nav#mobileNavBar {
@@ -29,6 +32,9 @@ main {
     nav#pcNavBar {
         display: none;
     }
+    footer {
+        padding: 25px;
+    }
 }
 @media screen and (min-width: 578px) {
     nav#mobileNavBar {
@@ -36,5 +42,8 @@ main {
     }
     nav#pcNavBar {
         display: auto;
+    }
+    footer {
+        padding: 45px;
     }
 }

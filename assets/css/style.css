@@ -15,19 +15,28 @@
 main {
   background-image: url(../img/img0.jpg);
   background-size: cover;
-  height: 124vh; }
+  height: calc(100vh - 54px); }
+
+footer {
+  color: white; }
 
 @media screen and (max-width: 578px) {
   nav#mobileNavBar {
     display: auto; }
 
   nav#pcNavBar {
-    display: none; } }
+    display: none; }
+
+  footer {
+    padding: 25px; } }
 @media screen and (min-width: 578px) {
   nav#mobileNavBar {
     display: none; }
 
   nav#pcNavBar {
-    display: auto; } }
+    display: auto; }
+
+  footer {
+    padding: 45px; } }
 
 /*# sourceMappingURL=style.css.map */
