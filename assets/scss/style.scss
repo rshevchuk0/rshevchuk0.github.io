@@ -22,9 +22,6 @@ main {
     background-size: cover;
     height: calc(100vh - 54px);
 }
-footer {
-    color: white;
-}
 @media screen and (max-width: 578px) {
     nav#mobileNavBar {
         display: auto;
@@ -33,7 +30,8 @@ footer {
         display: none;
     }
     footer {
-        padding: 25px;
+        color: white;
+        padding: 10px;
     }
 }
 @media screen and (min-width: 578px) {
@@ -44,6 +42,7 @@ footer {
         display: auto;
     }
     footer {
-        padding: 45px;
+        color: white;
+        padding: 25px;
     }
 }
