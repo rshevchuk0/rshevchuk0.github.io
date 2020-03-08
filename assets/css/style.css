@@ -57,7 +57,10 @@ div.navBottom ul {
 
   footer {
     color: white;
-    padding: 10px; } }
+    padding: 10px; }
+
+  main {
+    text-align: center; } }
 @media screen and (min-width: 576px) {
   nav#mobileNavBar {
     display: none; }
@@ -67,6 +70,15 @@ div.navBottom ul {
 
   footer {
     color: white;
-    padding: 25px; } }
+    padding: 25px; }
+
+  main {
+    text-align: center; }
+    main div.mainContent {
+      padding: 2% 2%;
+      height: 10%;
+      width: 80%;
+      margin: 0 10%;
+      background-color: #343a40; } }
 
 /*# sourceMappingURL=style.css.map */

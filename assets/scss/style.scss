@@ -94,6 +94,9 @@ div.navBottom {
         color: white;
         padding: 10px;
     }
+    main {
+        text-align: center;
+    }
 }
 @media screen and (min-width: 576px) {
     nav#mobileNavBar {
@@ -105,5 +108,17 @@ div.navBottom {
     footer {
         color: white;
         padding: 25px;
+    }
+    main {
+        text-align: center;
+        div.mainContent {
+            //opacity: 75%;
+            padding: 2% 2%;
+            height: 10%;
+            width: 80%;
+            margin: 0 10%;
+            background-color: $grey;
+
+        }
     }
 }
