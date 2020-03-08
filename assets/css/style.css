@@ -15,7 +15,8 @@
 main {
   background-image: url(../img/img0.jpg);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  height: auto; }
 
 nav#pcNavBar ul li a {
   font-family: "Ubuntu";
