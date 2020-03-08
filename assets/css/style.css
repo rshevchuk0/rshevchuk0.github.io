@@ -18,6 +18,8 @@ main {
   background-size: cover;
   background-position: center;
   height: auto; }
+  main div.mainContent {
+    border-bottom: 1px #0e141a solid; }
 
 nav#pcNavBar ul li a {
   font-family: "Ubuntu";
@@ -65,7 +67,10 @@ div.navBottom ul {
     main div.mainContent {
       background-color: #343a40; }
       main div.mainContent form.regForm {
-        padding: 10px 15px; } }
+        padding: 10px 15px; }
+      main div.mainContent p {
+        margin-bottom: 0;
+        padding-bottom: 16px; } }
 @media screen and (min-width: 576px) {
   nav#mobileNavBar {
     display: none; }
