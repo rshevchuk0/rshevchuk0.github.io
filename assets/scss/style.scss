@@ -38,6 +38,7 @@ main {
         margin-bottom: 0;
         padding-bottom: 16px;
     }
+
 }
 nav#pcNavBar {
     ul {
@@ -108,11 +109,13 @@ div.navBottom {
     main {
         //margin: 0 2%;
         text-align: center;
-        div.mainContent {
-            background-color: $novelGrey;
-            form.regForm {
-                padding: 10px 15px;
-            }
+        div.cont {
+            div.mainContent {
+                background-color: $novelGrey;
+                form.regForm {
+                    padding: 10px 15px;
+                }
+            }    
         }
     }
 }

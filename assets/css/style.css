@@ -68,9 +68,9 @@ div.navBottom ul {
 
   main {
     text-align: center; }
-    main div.mainContent {
+    main div.cont div.mainContent {
       background-color: #4c545d; }
-      main div.mainContent form.regForm {
+      main div.cont div.mainContent form.regForm {
         padding: 10px 15px; } }
 @media screen and (min-width: 576px) {
   nav#mobileNavBar {
