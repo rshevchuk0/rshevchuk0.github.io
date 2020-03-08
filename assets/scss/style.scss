@@ -1,16 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
-}
-//Navigation Bar Font
-$navBarFont: 'Ubuntu';
-//Colors
-$darkGrey: #0e141a;
-$grey: #343a40;
-$lightGrey: #8b9299;
-$llightGrey: #bbc2ca;
-
 @font-face {
     font-family: 'pacificoregular';
     src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
@@ -25,12 +12,31 @@ $llightGrey: #bbc2ca;
     font-weight: normal;
     font-style: normal;
 }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    color: white;
+}
+//Navigation Bar Font
+$navBarFont: 'Ubuntu';
+//Colors
+$darkGrey: #0e141a;
+$grey: #343a40;
+$lightGrey: #8b9299;
+$llightGrey: #bbc2ca;
+
 main {
     background-image: url(../img/img0.jpg);
     background-size: cover;
     background-position: center;
     //height: calc(100vh - 54px);
     height: auto;
+    p {
+        font-family: $navBarFont;
+        margin-bottom: 0;
+        padding-bottom: 16px;
+    }
 }
 nav#pcNavBar {
     ul {
@@ -106,10 +112,6 @@ div.navBottom {
             form.regForm {
                 padding: 10px 15px;
             }
-            p {
-                margin-bottom: 0;
-                padding-bottom: 16px;
-            }
         }
     }
 }
@@ -129,15 +131,19 @@ div.navBottom {
         div.mainContent {
             //opacity: 75%;
             color: white;
-            padding: 2% 2%;
+            padding: 0 2%;
             height: 10%;
             width: 80%;
             margin: 0 10%;
             background-color: $grey;
-            form.regForm {
-                padding: 20px 50px;
-                div.form-group {
-                    text-align: left;
+            div.container {
+                div.row {
+                    form.regForm {
+                        padding: 20px 50px;
+                        div.form-group {
+                            text-align: left;
+                        }
+                    }
                 }
             }
         }
