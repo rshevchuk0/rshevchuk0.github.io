@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: white; }
 
 @font-face {
   font-family: 'pacificoregular';
@@ -60,7 +61,11 @@ div.navBottom ul {
     padding: 10px; }
 
   main {
-    text-align: center; } }
+    text-align: center; }
+    main div.mainContent {
+      background-color: #343a40; }
+      main div.mainContent form.regForm {
+        padding: 10px 15px; } }
 @media screen and (min-width: 576px) {
   nav#mobileNavBar {
     display: none; }
@@ -75,10 +80,15 @@ div.navBottom ul {
   main {
     text-align: center; }
     main div.mainContent {
+      color: white;
       padding: 2% 2%;
       height: 10%;
       width: 80%;
       margin: 0 10%;
-      background-color: #343a40; } }
+      background-color: #343a40; }
+      main div.mainContent form.regForm {
+        padding: 20px 50px; }
+        main div.mainContent form.regForm div.form-group {
+          text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */

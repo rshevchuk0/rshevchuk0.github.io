@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 //Navigation Bar Font
 $navBarFont: 'Ubuntu';
@@ -96,7 +97,14 @@ div.navBottom {
         padding: 10px;
     }
     main {
+        //margin: 0 2%;
         text-align: center;
+        div.mainContent {
+            background-color: $grey;
+            form.regForm {
+                padding: 10px 15px;
+            }
+        }
     }
 }
 @media screen and (min-width: 576px) {
@@ -114,12 +122,18 @@ div.navBottom {
         text-align: center;
         div.mainContent {
             //opacity: 75%;
+            color: white;
             padding: 2% 2%;
             height: 10%;
             width: 80%;
             margin: 0 10%;
             background-color: $grey;
-
+            form.regForm {
+                padding: 20px 50px;
+                div.form-group {
+                    text-align: left;
+                }
+            }
         }
     }
 }
