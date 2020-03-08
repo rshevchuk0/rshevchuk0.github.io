@@ -23,6 +23,7 @@ $navBarFont: 'Ubuntu';
 //Colors
 $darkGrey: #0e141a;
 $grey: #343a40;
+$novelGrey: #4c545d;
 $lightGrey: #8b9299;
 $llightGrey: #bbc2ca;
 
@@ -108,7 +109,7 @@ div.navBottom {
         //margin: 0 2%;
         text-align: center;
         div.mainContent {
-            background-color: $grey;
+            background-color: $novelGrey;
             form.regForm {
                 padding: 10px 15px;
             }
@@ -135,7 +136,7 @@ div.navBottom {
             height: 10%;
             width: 80%;
             margin: 0 10%;
-            background-color: $grey;
+            background-color: $novelGrey;
             div.container {
                 div.row {
                     form.regForm {

@@ -69,7 +69,7 @@ div.navBottom ul {
   main {
     text-align: center; }
     main div.mainContent {
-      background-color: #343a40; }
+      background-color: #4c545d; }
       main div.mainContent form.regForm {
         padding: 10px 15px; } }
 @media screen and (min-width: 576px) {
@@ -91,7 +91,7 @@ div.navBottom ul {
       height: 10%;
       width: 80%;
       margin: 0 10%;
-      background-color: #343a40; }
+      background-color: #4c545d; }
       main div.mainContent div.container div.row form.regForm {
         padding: 20px 50px; }
         main div.mainContent div.container div.row form.regForm div.form-group {
