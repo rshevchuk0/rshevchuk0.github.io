@@ -83,7 +83,7 @@ div.navBottom {
         }
     }
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) and (orientation: portrait, landscape){
     nav#mobileNavBar {
         display: auto;
     }
