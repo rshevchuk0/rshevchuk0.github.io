@@ -18,8 +18,6 @@ main {
   background-size: cover;
   background-position: center;
   height: auto; }
-  main div.mainContent {
-    border-bottom: 1px #0e141a solid; }
 
 nav#pcNavBar ul li a {
   font-family: "Ubuntu";
@@ -29,7 +27,8 @@ nav#mobileNavBar div#mNav ul li a {
   font-family: "Ubuntu"; }
 
 footer {
-  background-color: #343a40; }
+  background-color: #343a40;
+  border-top: 1px #0e141a solid; }
   footer div.row span {
     font-family: "Ubuntu";
     color: #bbc2ca; }

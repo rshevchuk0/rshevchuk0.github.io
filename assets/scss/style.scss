@@ -31,9 +31,6 @@ main {
     background-position: center;
     //height: calc(100vh - 54px);
     height: auto;
-    div.mainContent {
-        border-bottom: 1px $darkGrey solid;
-    }
 }
 nav#pcNavBar {
     ul {
@@ -58,6 +55,7 @@ nav#mobileNavBar {
 }
 footer {
     background-color: $grey;
+    border-top: 1px $darkGrey solid;
     div.row {
         span {
             font-family: $navBarFont;
