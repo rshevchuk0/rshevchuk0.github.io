@@ -79,7 +79,7 @@
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, impedit similique quas, dolor atque vero exercitationem fuga delectus corrupti in molestias, quasi a maiores sapiente. Fugiat optio nesciunt est iure!</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Замовити</button>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#order1">Замовити</button>
                     </div>
                 </div>
                 <div class="card mb-4 shadow-sm">
@@ -91,7 +91,7 @@
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem culpa ullam quaerat dolorum, cum sapiente odit. Debitis harum amet incidunt commodi dolores ullam labore totam quidem, voluptates delectus officia dolore?</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Замовити</button>
+                        <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#order1">Замовити</button>
                     </div>
                 </div>
                 <div class="card mb-4 shadow-sm">
@@ -103,7 +103,7 @@
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem culpa ullam quaerat dolorum, cum sapiente odit. Debitis harum amet incidunt commodi dolores ullam labore totam quidem, voluptates delectus officia dolore?</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-danger">Замовити</button>
+                        <button type="button" class="btn btn-lg btn-block btn-danger" data-toggle="modal" data-target="#order1">Замовити</button>
                     </div>
                 </div>
             </div>
@@ -125,6 +125,39 @@
                 </div>
             </div>
         </footer>
+        <div id="order1" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Замовлення</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form class="regForm text-center px-3 py-3">
+                        <h3>Експрес замовлення столику</h3>
+                        <div class="form-group">
+                            <label for="custName">Ваше ім'я</label>
+                            <input type="text" class="form-control" id="custName" placeholder="Петро">
+                        </div>
+                        <div class="form-group">
+                            <label for="custPhone">Ваш номер телефону</label>
+                          <input type="text" class="form-control" id="custPhone" placeholder="+380000000000">
+                        </div>
+                        <div class="form-group">
+                            <label for="custBookDateTime">Коли Ви бажаєте відвідати ресторан</label>
+                            <input type="datetime-local" class="form-control" id="custBookDateTime">
+                        </div>
+                    </form>
+                        </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Замовити зараз</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Відміна</button>
+                </div>
+              </div>
+            </div>
+        </div>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
