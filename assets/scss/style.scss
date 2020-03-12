@@ -16,7 +16,6 @@ $grey: #343a40;
 $novelGrey: #4c545d;
 $lightGrey: #8b9299;
 $llightGrey: #bbc2ca;
-
 article {
     background-image: url(../img/img0.jpg);
     background-position: center;
@@ -64,7 +63,6 @@ footer {
         }
     }
 }
-
 @media screen and (max-width: 576px){
     nav#mobileNavBar {
         display: auto;
