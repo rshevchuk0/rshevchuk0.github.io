@@ -1,12 +1,4 @@
 @font-face {
-    font-family: 'pacificoregular';
-    src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
-         url('../fonts/pacifico-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'Ubuntu';
     src: url('../fonts/Ubuntu.ttf') format('truetype');
     font-weight: normal;
@@ -18,8 +10,6 @@
     font-family: 'Ubuntu';
     color: white;
 }
-//Navigation Bar Font
-$navBarFont: 'Ubuntu';
 //Colors
 $darkGrey: #0e141a;
 $grey: #343a40;
@@ -27,52 +17,28 @@ $novelGrey: #4c545d;
 $lightGrey: #8b9299;
 $llightGrey: #bbc2ca;
 
-main {
-    background-image: url(../img/img0.jpg);
-    background-size: cover;
-    background-position: center;
-    //height: calc(100vh - 54px);
-    height: auto;
-    p {
-        font-family: $navBarFont;
-        margin-bottom: 0;
-        padding-bottom: 16px;
-    }
-
-}
-nav#pcNavBar {
-    ul {
-        li {
-            a {
-                font-family: $navBarFont;
-                font-size: 3vh;
-            }
+article {
+    section#description {
+        h3 {
+            padding: 15px 15px 0 15px;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+            padding: 10px 25px;
         }
     }
-}
-nav#mobileNavBar {
-    div#mNav {
-        ul {
-            li {
-                a {
-                    font-family: $navBarFont;
-                }
-            }
+    section#misc {
+        padding: 15px 0;
+    }
+    section#misc2 {
+        p {
+            margin: 0;
+            padding: 15px 25px;
         }
     }
 }
 footer {
-    background-color: $grey;
-    border-top: 1px $darkGrey solid;
-    div.row {
-        span {
-            font-family: $navBarFont;
-            color: $llightGrey;
-        }
-        .col-12 {
-            margin-bottom: 15px;
-        }
-    }
     img {
         height: 32px;
         width: 32px;
@@ -83,14 +49,8 @@ div.navBottom {
         list-style-type: none;
         li {
             display: block;
-            a {
-                font-family: $navBarFont;
-                color: white;
-            }
             span {
-                font-family: $navBarFont;
                 padding-bottom: 10px;
-                color: $lightGrey;
             }
         }
     }
@@ -106,16 +66,12 @@ div.navBottom {
         color: white;
         padding: 10px;
     }
-    main {
-        //margin: 0 2%;
-        text-align: center;
-        div.mainContent {
-            background-color: $novelGrey;
-            div.cont {
-                form.regForm {
-                    padding: 10px 15px;
-                }
-            }    
+    article {
+        section#misc {
+            form.regForm {
+                text-align: center;
+                padding: 10px 15px;
+            }
         }
     }
 }
@@ -130,24 +86,23 @@ div.navBottom {
         color: white;
         padding: 25px;
     }
-    main {
-        text-align: center;
-        div.mainContent {
-            //opacity: 75%;
-            color: white;
-            padding: 0 2%;
-            //height: 10%;
-            width: 80%;
-            margin: 0 10%;
-            background-color: $novelGrey;
-            div.container {
-                div.row {
-                    form.regForm {
-                        padding: 20px 50px;
-                        div.form-group {
-                            text-align: left;
-                        }
-                    }
+    article {
+        section#misc {
+            form.regForm {
+                text-align: center;
+                div.form-group {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1440px) {
+    nav#pcNavBar {
+        ul {
+            li {
+                a {
+                    font-size: 3vh;
                 }
             }
         }

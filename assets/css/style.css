@@ -1,9 +1,4 @@
 @font-face {
-  font-family: 'pacificoregular';
-  src: url("../fonts/pacifico-regular-webfont.woff2") format("woff2"), url("../fonts/pacifico-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
   font-family: 'Ubuntu';
   src: url("../fonts/Ubuntu.ttf") format("truetype");
   font-weight: normal;
@@ -14,46 +9,28 @@
   font-family: 'Ubuntu';
   color: white; }
 
-main {
-  background-image: url(../img/img0.jpg);
-  background-size: cover;
-  background-position: center;
-  height: auto; }
-  main p {
-    font-family: "Ubuntu";
-    margin-bottom: 0;
-    padding-bottom: 16px; }
+article section#description h3 {
+  padding: 15px 15px 0 15px;
+  text-align: center; }
+article section#description p {
+  text-align: justify;
+  padding: 10px 25px; }
+article section#misc {
+  padding: 15px 0; }
+article section#misc2 p {
+  margin: 0;
+  padding: 15px 25px; }
 
-nav#pcNavBar ul li a {
-  font-family: "Ubuntu";
-  font-size: 3vh; }
-
-nav#mobileNavBar div#mNav ul li a {
-  font-family: "Ubuntu"; }
-
-footer {
-  background-color: #343a40;
-  border-top: 1px #0e141a solid; }
-  footer div.row span {
-    font-family: "Ubuntu";
-    color: #bbc2ca; }
-  footer div.row .col-12 {
-    margin-bottom: 15px; }
-  footer img {
-    height: 32px;
-    width: 32px; }
+footer img {
+  height: 32px;
+  width: 32px; }
 
 div.navBottom ul {
   list-style-type: none; }
   div.navBottom ul li {
     display: block; }
-    div.navBottom ul li a {
-      font-family: "Ubuntu";
-      color: white; }
     div.navBottom ul li span {
-      font-family: "Ubuntu";
-      padding-bottom: 10px;
-      color: #8b9299; }
+      padding-bottom: 10px; }
 
 @media screen and (max-width: 576px) {
   nav#mobileNavBar {
@@ -66,12 +43,9 @@ div.navBottom ul {
     color: white;
     padding: 10px; }
 
-  main {
-    text-align: center; }
-    main div.mainContent {
-      background-color: #4c545d; }
-      main div.mainContent div.cont form.regForm {
-        padding: 10px 15px; } }
+  article section#misc form.regForm {
+    text-align: center;
+    padding: 10px 15px; } }
 @media screen and (min-width: 576px) {
   nav#mobileNavBar {
     display: none; }
@@ -83,17 +57,12 @@ div.navBottom ul {
     color: white;
     padding: 25px; }
 
-  main {
+  article section#misc form.regForm {
     text-align: center; }
-    main div.mainContent {
-      color: white;
-      padding: 0 2%;
-      width: 80%;
-      margin: 0 10%;
-      background-color: #4c545d; }
-      main div.mainContent div.container div.row form.regForm {
-        padding: 20px 50px; }
-        main div.mainContent div.container div.row form.regForm div.form-group {
-          text-align: left; } }
+    article section#misc form.regForm div.form-group {
+      text-align: left; } }
+@media screen and (min-width: 1440px) {
+  nav#pcNavBar ul li a {
+    font-size: 3vh; } }
 
 /*# sourceMappingURL=style.css.map */
