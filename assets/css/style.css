@@ -9,28 +9,35 @@
   font-family: 'Ubuntu';
   color: white; }
 
-article section#description h3 {
-  padding: 15px 15px 0 15px;
-  text-align: center; }
-article section#description p {
-  text-align: justify;
-  padding: 10px 25px; }
-article section#misc {
-  padding: 15px 0; }
-article section#misc2 p {
-  margin: 0;
-  padding: 15px 25px; }
+article {
+  background-image: url(../img/img0.jpg);
+  background-position: center; }
+  article section:not([id="slideshow"]) {
+    margin: 0 15px; }
+  article section#description h3 {
+    padding: 15px 15px 0 15px;
+    text-align: center; }
+  article section#description p {
+    margin: 0;
+    text-align: justify;
+    padding: 10px 25px; }
+  article section#misc {
+    padding: 15px 0; }
+  article section#misc2 p {
+    margin: 0;
+    padding: 15px 25px; }
 
 footer img {
   height: 32px;
   width: 32px; }
-
-div.navBottom ul {
+footer span {
+  padding-bottom: 10px; }
+footer div.navBottom ul {
   list-style-type: none; }
-  div.navBottom ul li {
+  footer div.navBottom ul li {
     display: block; }
-    div.navBottom ul li span {
-      padding-bottom: 10px; }
+    footer div.navBottom ul li span {
+      padding: 10px 0; }
 
 @media screen and (max-width: 576px) {
   nav#mobileNavBar {
@@ -43,6 +50,8 @@ div.navBottom ul {
     color: white;
     padding: 10px; }
 
+  article section {
+    margin: 0 !important; }
   article section#misc form.regForm {
     text-align: center;
     padding: 10px 15px; } }
@@ -62,6 +71,12 @@ div.navBottom ul {
     article section#misc form.regForm div.form-group {
       text-align: left; } }
 @media screen and (min-width: 1440px) {
+  article section h3, article section p {
+    font-size: xx-large; }
+
+  footer {
+    font-size: xx-large; }
+
   nav#pcNavBar ul li a {
     font-size: 3vh; } }
 

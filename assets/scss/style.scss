@@ -18,12 +18,18 @@ $lightGrey: #8b9299;
 $llightGrey: #bbc2ca;
 
 article {
+    background-image: url(../img/img0.jpg);
+    background-position: center;
+    section:not([id="slideshow"]) {
+        margin: 0 15px;
+    }
     section#description {
         h3 {
             padding: 15px 15px 0 15px;
             text-align: center;
         }
         p {
+            margin: 0;
             text-align: justify;
             padding: 10px 25px;
         }
@@ -43,18 +49,22 @@ footer {
         height: 32px;
         width: 32px;
     }
-}
-div.navBottom {
-    ul {
-        list-style-type: none;
-        li {
-            display: block;
-            span {
-                padding-bottom: 10px;
+    span {
+        padding-bottom: 10px;
+    }
+    div.navBottom {
+        ul {
+            list-style-type: none;
+            li {
+                display: block;
+                span {
+                    padding: 10px 0;
+                }
             }
         }
     }
 }
+
 @media screen and (max-width: 576px){
     nav#mobileNavBar {
         display: auto;
@@ -67,6 +77,9 @@ div.navBottom {
         padding: 10px;
     }
     article {
+        section {
+            margin: 0!important;
+        }
         section#misc {
             form.regForm {
                 text-align: center;
@@ -98,6 +111,16 @@ div.navBottom {
     }
 }
 @media screen and (min-width: 1440px) {
+    article {
+        section {
+            h3, p {
+                font-size: xx-large;
+            }
+        }
+    }
+    footer {
+        font-size: xx-large;
+    }
     nav#pcNavBar {
         ul {
             li {
