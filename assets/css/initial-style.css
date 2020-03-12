@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(../fonts/Ubuntu.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  font-family: 'Ubuntu';
+}
+body {
+  padding-top: 5rem;
+}
+.starter-main {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
