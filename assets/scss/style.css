@@ -1,0 +1,21 @@
+header nav a.navbar-brand img {
+  height: 8vh; }
+
+.starter-main p {
+  text-align: justify; }
+
+#restaurantCarousel {
+  margin-bottom: 15px; }
+
+#mainCardDeck .card-body li:last-child {
+  text-align: justify; }
+
+footer {
+  padding: 15px; }
+  footer .socNets {
+    text-align: center; }
+    footer .socNets a img {
+      height: 32px;
+      margin: 10px 3px; }
+
+/*# sourceMappingURL=style.css.map */
