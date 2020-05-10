@@ -1,0 +1,20 @@
+.map-clean {
+  color: #313437;
+  background-color: #fff; }
+  .map-clean p {
+    color: #7d8285; }
+  .map-clean h2 {
+    font-weight: bold;
+    color: inherit; }
+  .map-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto; }
+  .map-clean iframe {
+    background-color: #eee; }
+
+@media (max-width: 767px) {
+  .map-clean h2 {
+    font-size: 24px; } }
+
+/*# sourceMappingURL=Map.css.map */

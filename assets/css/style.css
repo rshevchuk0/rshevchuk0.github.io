@@ -4,6 +4,13 @@ header nav a.navbar-brand img {
 .starter-main p {
   text-align: justify; }
 
+main {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.modal .modal-body .form-control {
+  margin: 15px 0; }
+
 #restaurantCarousel {
   margin-top: 25px;
   margin-bottom: 15px; }

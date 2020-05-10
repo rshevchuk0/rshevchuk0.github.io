@@ -25,7 +25,7 @@
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="catering.html">Кейтеринг</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Додатково</a>
-                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Зворотній зв&#39;язок</a><a class="dropdown-item" role="presentation" href="details.html">Додаткова інформація</a></div>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="feedback.html">Зворотній зв&#39;язок</a><a class="dropdown-item" role="presentation" href="details.html">Додаткова інформація</a></div>
                                 </li>
                             </ul>
                         </div>
@@ -75,11 +75,7 @@
                     <h4 class="my-0 font-weight-normal">Кухня</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ замовлення</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem culpa ullam quaerat dolorum, cum sapiente odit. Debitis harum amet incidunt commodi dolores ullam labore totam quidem, voluptates delectus officia dolore?</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-success" data-toggle="modal" data-target="#order1">Замовити</button>
+                    <button type="button" class="btn btn-lg btn-block btn-secondary" data-toggle="modal" data-target="#menu1">Переглянути</button>
                 </div>
             </div>
             <div class="card mb-4 shadow-sm">
@@ -87,11 +83,7 @@
                     <h4 class="my-0 font-weight-normal">Бар</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ замовлення</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem culpa ullam quaerat dolorum, cum sapiente odit. Debitis harum amet incidunt commodi dolores ullam labore totam quidem, voluptates delectus officia dolore?</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-danger" data-toggle="modal" data-target="#order1">Замовити</button>
+                    <button type="button" class="btn btn-lg btn-block btn-secondary" data-toggle="modal" data-target="#menu2">Переглянути</button>
                 </div>
             </div>
         </div>
@@ -110,7 +102,7 @@
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Додатково</h3>
                     <ul>
-                        <li><a href="#">Зворотній зв'язок</a></li>
+                        <li><a href="feedback.html">Зворотній зв'язок</a></li>
                         <li><a href="details.html">Додаткова інформація</a></li>
                     </ul>
                 </div>
@@ -123,35 +115,174 @@
             <p class="copyright">C'est la vie Restaurant</p>
         </div>
     </footer>
-    <div id="order1" class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Замовлення</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <div>
+        <div id="menu1" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Кухня</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="booking.html" class="regForm px-3 py-3" id="form1">
+                            <!--<div class="form-group">
+                                <label for="custName">Ваше ім'я</label>
+                                <input type="text" class="form-control" id="custName" placeholder="Петро">
+                            </div>-->
+
+                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineClassic" role="button" aria-expanded="false" aria-controls="cuisineClassic">Класичне меню</a>
+                            <div class="collapse" id="cuisineClassic">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-9">Яловичина Россіні з фуагра</div>
+                                            <div class="col-3">574 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Антрикот Сименталь з соусом бордле</div>
+                                            <div class="col-3">633 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Тартар з яловичини Шароле</div>
+                                            <div class="col-3">128 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Різотто з грибами та пармезаном</div>
+                                            <div class="col-3">232 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Яйце пашот з трюфелем</div>
+                                            <div class="col-3">101 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Ескалоп з лаймом та базиліком</div>
+                                            <div class="col-3">498 ₴</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineMeat" role="button" aria-expanded="false" aria-controls="cuisineMeat">М'ясні страви</a>
+                            <div class="collapse" id="cuisineMeat">
+                                <div class="card card-body">
+                                      <div class="container">
+                                        <div class="row">
+                                            <div class="col-9">Свинні реберця по-іберійски зі смаженими білими грибами</div>
+                                            <div class="col-3">253 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Індичка по-селянскьки з трюфелем та сирними чіпсами</div>
+                                            <div class="col-3">384 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Мармурова яловичина на грилі з фуагра</div>
+                                            <div class="col-3">1300 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Запечене філе ягня з волосським горіхом</div>
+                                            <div class="col-3">424 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Вирізка яловича</div>
+                                            <div class="col-3">923 ₴</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineFish" role="button" aria-expanded="false" aria-controls="cuisineFish">Рибні меню</a>
+                            <div class="collapse" id="cuisineFish">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-9">Ескалоп фарширований молюсками</div>
+                                            <div class="col-3">1128 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Запечена тріска із лангустином</div>
+                                            <div class="col-3">633 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Філе сібаса по-іберійськи</div>
+                                            <div class="col-3">384 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Філе палтуса на грилі</div>
+                                            <div class="col-3">386 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Морський окунь запечений у соляному мішечку</div>
+                                            <div class="col-3">562 ₴</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineDesserts" role="button" aria-expanded="false" aria-controls="cuisineDesserts">Десерти</a>
+                            <div class="collapse" id="cuisineDesserts">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-9">Запечена ромова груша без скоринки із дипетриксом</div>
+                                            <div class="col-3">136 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Формований злиток з шоколаду та лісних горіхів</div>
+                                            <div class="col-3">98 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Клементина з Юзу</div>
+                                            <div class="col-3">50 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Креп-сюзет</div>
+                                            <div class="col-3">250 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Гарячий шоколадний мус</div>
+                                            <div class="col-3">110 ₴</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-9">Чізкейк Ламері</div>
+                                            <div class="col-3">98 ₴</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <form class="regForm text-center px-3 py-3">
-                        <h3>Експрес замовлення столику</h3>
-                        <div class="form-group">
-                            <label for="custName">Ваше ім'я</label>
-                            <input type="text" class="form-control" id="custName" placeholder="Петро">
-                        </div>
-                        <div class="form-group">
-                            <label for="custPhone">Ваш номер телефону</label>
-                            <input type="text" class="form-control" id="custPhone" placeholder="+380000000000">
-                        </div>
-                        <div class="form-group">
-                            <label for="custBookDateTime">Коли Ви бажаєте відвідати ресторан</label>
-                            <input type="datetime-local" class="form-control" id="custBookDateTime">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">Замовити зараз</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Відміна</button>
+            </div>
+        </div>
+        <div id="menu2" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Бар</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="booking.html" class="regForm px-3 py-3" id="form1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">Традиційні французькі вина (винна карта)</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">Міцні алкогольні напої</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">Французький кон'як</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">Ликери</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">Аперетиви</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

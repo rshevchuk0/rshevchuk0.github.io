@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Деталі</title>
+    <title>Зворотній зв'язок</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/initial-style.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -43,19 +43,32 @@
         </div>
     </header>
     <main role="main" class="container">
+        <h4 class="mb-3">Є запитання?</h4>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p class="lead">C'est la vie (в перекладі «таке життя») – це ресторан, який подарує приємне відчуття французької атмосферності, місцевої затишності, подарує відчуття Франції «як вдома». Істинно французького уміння жити, «надихаючи любити світ і один одного більше». Уявіть: ви сидите на терасі з видом на місто, що прокидається... чи у лакшері залі, на дивані біля вікна з видом на центр Києва. Лунає французька музика і Ви відчуваєте її безподібно мелодичне звучання зі свіжеспеченим багетом (комплімент від шефу). У вас в руці – келих білого Кот дю Рон або червоного Бургундського, а в думках Ви вже десь в затишній брассері на одній з вуличок у центрі Парижу.</p>
-                </div>
-                <div class="map-clean col-lg-6">
-                    <div class="container">
-                        <div class="intro">
-                            <h2 class="text-center">Місцезнаходження</h2>
-                            <!--<p class="text-center">Нас можна знайти на мапі міста. </p>-->
+            <form novalidate class="needs-validation">
+                <div class="row">
+                    <div class="col-md mb-3">
+                        <label for="firstName">Ім'я</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Сергій" value="" required>
+                        <div class="invalid-feedback">
+                            Як до вас звертатись?
                         </div>
-                    </div><iframe allowfullscreen frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDaEw6o8OhJvRQnTF3gI_tibMejtfasOlY&amp;q=Paris%2C+France&amp;zoom=15" width="100%" height="450"></iframe>
+                    </div>
                 </div>
+                <div class="mb-3">
+                    <label for="email">E-mail адреса <span class="text-muted">(для зворотнього звязку)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@ukr.net" required>
+                    <div class="invalid-feedback">
+                        Введіть коректну e-mail адресу.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="custQuestion">Поле для вводу</label>
+                    <textarea id="custQuestion" class="form-control" placeholder="Добрий день, хочу звернутися до Вас..."></textarea>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block mb-3" type="submit">Відіслати</button>
+            </form>
         </div>
     </main>
     <footer class="footer-dark">
