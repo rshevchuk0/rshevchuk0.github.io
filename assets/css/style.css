@@ -11,6 +11,13 @@ main {
 .modal .modal-body .form-control {
   margin: 15px 0; }
 
+.collapse .card .container .row {
+  display: flex;
+  align-items: center;
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  margin-bottom: 2px; }
+
 #restaurantCarousel {
   margin-top: 25px;
   margin-bottom: 15px; }
