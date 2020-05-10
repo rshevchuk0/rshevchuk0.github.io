@@ -1,14 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 10-May-2020, 18:39:57
-    Author     : rshev
-*/
-
-.modal-window {
+.modal-w {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -22,7 +12,7 @@ and open the template in the editor.
 }
 
 /* Modal Content/Box */
-.modal-window-content {
+.modal-w-content {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -39,22 +29,6 @@ and open the template in the editor.
   &:hover, &:focus {
     color: black;
     text-decoration: none;
-  cursor: pointer;
+    cursor: pointer;
   }
-}
-/* Modal Header */
-.modal-window-header {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
-
-/* Modal Body */
-.modal-window-body {padding: 2px 16px;}
-
-/* Modal Footer */
-.modal-window-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
 }

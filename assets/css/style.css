@@ -1,8 +1,8 @@
-header nav a.navbar-brand img {
-  height: 8vh; }
-
 .starter-main p {
   text-align: justify; }
+.starter-main img {
+  width: 100%;
+  height: auto; }
 
 main {
   padding-top: 15px;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/Header-Dark.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/modalWindow.css">
 </head>
 <body>
     <button onclick="topFunction()" id="backtotop" title="Вгору">&uarr;</button>
@@ -43,40 +44,54 @@
     </header>
     <main role="main" class="container">
         <div class="starter-main">
-            <h1>Що таке кейтеринг?</h1>
-            <p class="lead">Кейтеринг - сервіс виїзного обслуговування, що дозволяє організувати різні заходи в будь-якому зручному для Вас місці або приміщенні. Під кейтерингом ми маємо на увазі не тільки приготування їжі і доставка, а й обслуговування персоналом, сервірування, оформлення столу, розлив і подача напоїв гостям.</p>
-        </div>
-        <div class="album">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="assets/img/catering1.jpg" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text text-center">Банкет</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="assets/img/catering2.jpg" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text text-center">Фуршет</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="assets/img/catering3.jpg" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text text-center">Пікнік</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1>Бронювання столику</h1>
+            <div class="imgrestmap">
+                <img id="rm1" src="assets/img/restaurant-map.png" usemap="#restaurant-map">
+            <map id="rm" name="restaurant-map">
+                <area alt="1" title="1" href="" coords="102,409,129,432" shape="rect">
+                <area alt="2" title="2" href="" coords="103,348,129,372" shape="rect">
+                <area alt="3" title="3" href="" coords="102,287,129,310" shape="rect">
+                <area alt="4" title="4" href="" coords="104,227,129,251" shape="rect">
+                <area alt="5" title="5" href="" coords="101,162,129,187" shape="rect">
+                <area alt="6" title="6" href="" coords="168,164,196,188" shape="rect">
+                <area alt="7" title="7" href="" coords="237,163,266,190" shape="rect">
+                <area alt="8" title="8" href="" coords="305,162,334,188" shape="rect">
+                <area alt="9" title="9" href="" coords="377,163,406,189" shape="rect">
+                <area alt="10" title="10" href="" coords="269,385,296,410" shape="rect">
+                <area alt="11" title="11" href="" coords="349,385,377,409" shape="rect">
+                <area alt="12" title="12" href="" coords="267,445,295,470" shape="rect">
+                <area alt="13" title="13" href="" coords="348,444,376,470" shape="rect">
+                <area alt="14" title="14" href="" coords="267,509,294,534" shape="rect">
+                <area alt="15" title="15" href="" coords="349,509,375,533" shape="rect">
+                <area alt="16" title="16" href="" coords="266,570,293,594" shape="rect">
+                <area alt="17" title="17" href="" coords="345,568,373,593" shape="rect">
+                <area alt="18" title="18" href="" coords="471,472,503,502" shape="rect">
+                <area alt="19" title="19" href="" coords="545,472,580,501" shape="rect">
+                <area alt="20" title="20" href="" coords="470,394,505,426" shape="rect">
+                <area alt="21" title="21" href="" coords="546,395,580,426" shape="rect">
+                <area alt="22" title="22" href="" coords="470,321,503,351" shape="rect">
+                <area alt="23" title="23" href="" coords="548,319,581,351" shape="rect">
+                <area alt="24" title="24" href="" coords="469,242,503,273" shape="rect">
+                <area alt="25" title="25" href="" coords="547,241,581,274" shape="rect">
+                <area alt="26" title="26" href="" coords="469,172,503,203" shape="rect">
+                <area alt="27" title="27" href="" coords="547,171,582,203" shape="rect">
+                <area alt="28" title="28" href="" coords="378,103,406,129" shape="rect">
+                <area alt="29" title="29" href="" coords="306,103,335,128" shape="rect">
+                <area alt="30" title="30" href="" coords="237,103,266,128" shape="rect">
+                <area alt="31" title="31" href="" coords="168,103,196,128" shape="rect">
+                <area alt="32" title="32" href="" coords="101,103,129,129" shape="rect">
+            </map>
             </div>
         </div>
     </main>
+    <!-- The Modal -->
+    <div id="mdl" class="modal-w">
+        <!-- Modal content -->
+        <div class="modal-w-content">
+            <span class="close-window">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
     <footer class="footer-dark">
         <div class="container">
             <div class="row">
@@ -106,8 +121,11 @@
     </footer>
 
     <script src="assets/js/backtotop.js"></script>
+    <script src="assets/js/imageMapResizer.min.js"></script>
+    <script src="assets/js/modalWindow.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript"> imageMapResize();</script>
 </body>
 </html>
