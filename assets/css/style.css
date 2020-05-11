@@ -1,8 +1,11 @@
-.starter-main p {
-  text-align: justify; }
-.starter-main img {
-  width: 100%;
-  height: auto; }
+.starter-main {
+  padding: 3rem 1rem;
+  text-align: center; }
+  .starter-main p {
+    text-align: justify; }
+  .starter-main img {
+    width: 100%;
+    height: auto; }
 
 main {
   padding-top: 15px;
