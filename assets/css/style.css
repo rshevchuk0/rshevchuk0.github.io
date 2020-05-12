@@ -9,12 +9,16 @@
 
 body {
   background: #f3f3f3; }
-  body .card {
+  body .card, body .modal-body {
     background: #f9f9f9; }
-
-main {
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  body .modal-header {
+    background: #f3f3f3; }
+  body main {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    body main #restaurantCarousel {
+      margin-top: 25px;
+      margin-bottom: 15px; }
 
 .modal .modal-body .form-control {
   margin: 15px 0; }
@@ -27,13 +31,6 @@ main {
   margin-bottom: 2px; }
   .collapse .card .container-fluid .row .col-4, .collapsing .card .container-fluid .row .col-4 {
     padding: 0; }
-
-#restaurantCarousel {
-  margin-top: 25px;
-  margin-bottom: 15px; }
-
-#mainCardDeck .card-body li:last-child {
-  text-align: justify; }
 
 #backtotop {
   display: none;

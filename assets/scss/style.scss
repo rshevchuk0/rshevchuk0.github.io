@@ -12,13 +12,23 @@
 body {
     background: rgba(243,243,243,1);
 
-    .card {
+    .card, .modal-body {
         background: rgba(249,249,249,1);
     }
-}
-main {
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+    .modal-header {
+        background: rgba(243,243,243,1);
+    }
+
+    main {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        #restaurantCarousel {
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+    }
 }
 .modal .modal-body .form-control {
     margin: 15px 0;
@@ -40,30 +50,6 @@ main {
         }
     }
 }
-#restaurantCarousel {
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-#mainCardDeck{
-    .card-body {
-        li:last-child {
-            text-align: justify;
-        }    
-    }
-}
-//footer
-//{
-//    padding: 15px;
-//    .socNets {
-//        text-align: center;
-//        a {
-//            img {
-//                height: 32px;
-//                margin: 10px 3px;
-//            }
-//        }
-//    }
-//}
 #backtotop {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
