@@ -20,17 +20,32 @@
 
 /* Modal Content/Box */
 .modal-w-content {
-  background-color: #fefefe;
+  background: #f9f9f9;
   margin: 15% auto;
   /* 15% from the top and centered */
-  padding: 20px;
   border: 1px solid #888;
+  border-radius: calc(.25rem);
   width: 80%;
   /* Could be more or less, depending on screen size */ }
+  .modal-w-content .modal-w-header {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding: 15px;
+    background-color: #f3f3f3;
+    color: black; }
+  .modal-w-content .modal-w-body {
+    padding: 15px;
+    background-color: #f9f9f9; }
+  .modal-w-content .modal-w-footer {
+    border-bottom-left-radius: calc(.25rem - 2px);
+    border-bottom-right-radius: calc(.25rem - 2px);
+    padding: 15px;
+    background-color: #f3f3f3;
+    color: black; }
 
 /* The Close Button */
 .close-window {
-  color: #aaa;
+  color: #cecece;
   float: right;
   font-size: 28px;
   font-weight: bold; }
