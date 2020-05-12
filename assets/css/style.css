@@ -7,6 +7,11 @@
     width: 100%;
     height: auto; }
 
+body {
+  background: #f3f3f3; }
+  body .card {
+    background: #f9f9f9; }
+
 main {
   padding-top: 15px;
   padding-bottom: 15px; }
