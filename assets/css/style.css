@@ -23,14 +23,25 @@ body {
 .modal .modal-body .form-control {
   margin: 15px 0; }
 
-.collapse .card .container-fluid .row, .collapsing .card .container-fluid .row {
-  display: flex;
-  align-items: center;
-  border: 1px solid darkblue;
-  border-radius: 4px;
-  margin-bottom: 2px; }
-  .collapse .card .container-fluid .row .col-4, .collapsing .card .container-fluid .row .col-4 {
-    padding: 0; }
+/*.collapse, .collapsing {
+    .card {
+        .container-fluid {
+            .row {
+                display: flex;
+                align-items:center;
+                border: 1px solid darkblue;
+                border-radius: 4px;
+                margin-bottom: 2px;
+                //vertical-align: middle;
+                .col-4 {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}*/
+#menu1 .album .card-md-4 {
+  height: 356px; }
 
 #backtotop {
   display: none;
@@ -68,5 +79,24 @@ body {
   #backtotop:hover {
     background-color: #555;
     /* Add a dark-grey background on hover */ }
+
+.map-clean {
+  color: #313437;
+  background-color: #f1f1f1; }
+  .map-clean p {
+    color: #7d8285; }
+  .map-clean h2 {
+    font-weight: bold;
+    color: inherit; }
+  .map-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto; }
+  .map-clean iframe {
+    background-color: #eee; }
+
+@media (max-width: 767px) {
+  .map-clean h2 {
+    font-size: 24px; } }
 
 /*# sourceMappingURL=style.css.map */
