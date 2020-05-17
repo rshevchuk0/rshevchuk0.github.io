@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>C'est la vie</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/initial-style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/Header-Dark.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/initial-style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Dark.css">
 
 </head>
 <body>
@@ -35,7 +35,7 @@
                 <div class="container hero">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
-                            <h1 class="text-center" style="font-family: Ubuntu, sans-serif;">Ресторан французької кухні<br /> &quot;C&#39;est la vie&quot;<br /></h1>
+                            <h1 class="text-center" style="font-family: Ubuntu, sans-serif;">Ресторан французької кухні<br /> <b>&quot;C&#39;est la vie&quot;</b><br /></h1>
                             <p style="text-align: center;color: rgb(255,255,255);font-family: Ubuntu, sans-serif;">Відчуйте французьку атмосферу зі свіжеспеченим багетом та бокалом червоного або білого...</p>
                         </div>
                     </div>
@@ -47,13 +47,13 @@
         <div id="restaurantCarousel" class="carousel slide card" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/p1.jpg" class="d-block w-100" alt="...">
+                    <img src="../assets/img/p1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/p2.jpg" class="d-block w-100" alt="...">
+                    <img src="../assets/img/p2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/p3.jpg" class="d-block w-100" alt="...">
+                    <img src="../assets/img/p3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#restaurantCarousel" role="button" data-slide="prev">
@@ -65,26 +65,34 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div id="mainCardDeck" class="card-deck mb-3 text-center">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="assets/img/cuisine.jpg" />
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Кухня</h4>
-                </div>
-                <div class="card-body">
-                    <button type="button" class="btn btn-lg btn-block btn-secondary" data-toggle="modal" data-target="#menu1">Переглянути</button>
-                </div>
+        <div class="card mb-3">
+            <div class="card-header">
+                <h1 class="text-center">Меню</h1>
             </div>
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="assets/img/drinks.jpg" />
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Бар</h4>
-                </div>
-                <div class="card-body">
-                    <button type="button" class="btn btn-lg btn-block btn-secondary" data-toggle="modal" data-target="#menu2">Переглянути</button>
+            <div class="card-body">
+                <div id="mainCardDeck" class="card-deck mb-3 text-center">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="../assets/img/cuisine.jpg" />
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Кухня</h4>
+                        </div>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-lg btn-block btn-secondary" data-toggle="modal" data-target="#menu1">Переглянути</button>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="../assets/img/drinks.jpg" />
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Бар</h4>
+                        </div>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-lg btn-block btn-secondary" data-toggle="modal" data-target="#menu2">Переглянути</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </main>
     <footer class="footer-dark">
         <div class="container">
@@ -104,7 +112,7 @@
                         <li><a href="details.html">Додаткова інформація</a></li>
                     </ul>
                 </div>
-                <div class="col item social"><a href="#"><img src="assets/img/facebook-icon-1.png"></a><a href="#"><img src="assets/img/YouTube-icon.png"></a><a href="#"><img src="assets/img/telegram-icon.png"></a></div>
+                <div class="col item social"><a href="#"><img src="../assets/img/facebook-icon-1.png"></a><a href="#"><img src="../assets/img/YouTube-icon.png"></a><a href="#"><img src="../assets/img/telegram-icon.png"></a></div>
             </div>
             <p class="copyright">C'est la vie Restaurant</p>
         </div>
@@ -202,7 +210,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <div class="card mb-4 shadow-sm">
-                                                <img src="assets/img/cuisine/tartar-sharole.jpg" class="bd-placeholder-img card-img-top">
+                                                <img src="assets/img/cuisine/marble-steak.jpg" class="bd-placeholder-img card-img-top">
                                                 <div class="card-body">
                                                     <p class="card-text text-center">Мармурова яловичина на грилі з фуагра <br />1300 ₴<small>/порція</small><br />&nbsp;</p>
                                                 </div>
@@ -214,7 +222,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="card mb-4 shadow-sm">
-                                                <img src="assets/img/cuisine/risotto_mushy.jpg" class="bd-placeholder-img card-img-top">
+                                                <img src="assets/img/cuisine/lamb-hazelnut.jpg" class="bd-placeholder-img card-img-top">
                                                 <div class="card-body">
                                                     <p class="card-text text-center">Запечене філе ягня з волосським горіхом <br />424 ₴<small>/порція</small><br />&nbsp;</p>
                                                 </div>
@@ -222,7 +230,7 @@
                                         </div>                                       
                                         <div class="col-md-6">
                                             <div class="card mb-4 shadow-sm">
-                                                <img src="assets/img/cuisine/scalop-lime.jpg" class="bd-placeholder-img card-img-top">
+                                                <img src="assets/img/cuisine/beef-cut.jpg" class="bd-placeholder-img card-img-top">
                                                 <div class="card-body">
                                                     <p class="card-text text-center">Вирізка яловича <br />923 ₴<small>/порція</small><br />&nbsp;</p>
                                                 </div>
@@ -232,59 +240,111 @@
                                 </div>
                             </div>
                             <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineFish" role="button" aria-expanded="false" aria-controls="cuisineFish">Рибні меню</a>
-                            <div class="collapse" id="cuisineFish">
-                                <div class="card card-body">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-8">Ескалоп фарширований молюсками</div>
-                                            <div class="col-4">1128 ₴</div>
+                            <div id="cuisineFish" class="album collapse">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/scalop-stuffed.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Ескалоп фарширований молюсками <br />1128 ₴<small>/порція</small><br />&nbsp;</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Запечена тріска із лангустином</div>
-                                            <div class="col-4">633 ₴</div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/cod.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Запечена тріска із лангустином <br />633 ₴<small>/порція</small><br />&nbsp;</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Філе сібаса по-іберійськи</div>
-                                            <div class="col-4">384 ₴</div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/seabass1.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Філе сібаса по-іберійськи <br />384 ₴<small>/порція</small><br />&nbsp;</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Філе палтуса на грилі</div>
-                                            <div class="col-4">386 ₴</div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/sole-grill.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Філе палтуса на грилі <br />386 ₴<small>/порція</small><br />&nbsp;</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Морський окунь запечений у соляному мішечку</div>
-                                            <div class="col-4">562 ₴</div>
+                                        <div class="col-md-6">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/seabass2.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Морський окунь запечений у соляному мішечку <br />562 ₴<small>/порція</small><br />&nbsp;</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineDesserts" role="button" aria-expanded="false" aria-controls="cuisineDesserts">Десерти</a>
-                            <div class="collapse" id="cuisineDesserts">
-                                <div class="card card-body">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-8">Запечена ромова груша без скоринки із дипетриксом</div>
-                                            <div class="col-4">136 ₴</div>
+                            <div id="cuisineDesserts" class="album collapse">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/poached-pear.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Запечена ромова груша без скоринки із дипетриксом <br />136 ₴<small>/порція</small></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Формований злиток з шоколаду та лісних горіхів</div>
-                                            <div class="col-4">98 ₴</div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/chocolate.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Формований злиток з шоколаду та лісних горіхів <br />98 ₴<small>/порція</small></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Клементина з Юзу</div>
-                                            <div class="col-4">50 ₴</div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/yuzu.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Клементина з Юзу <br />50 ₴<small>/порція</small><br />&nbsp;</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Креп-сюзет</div>
-                                            <div class="col-4">250 ₴</div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/crepe-suzette.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Креп-сюзет <br />250 ₴<small>/порція</small></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Гарячий шоколадний мус</div>
-                                            <div class="col-4">110 ₴</div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/choco-mousse.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Гарячий шоколадний мус <br />110 ₴<small>/порція</small></p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-8">Чізкейк Ламері</div>
-                                            <div class="col-4">98 ₴</div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="assets/img/cuisine/cheese-cake.jpg" class="bd-placeholder-img card-img-top">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center">Чізкейк Ламері <br />98 ₴<small>/порція</small></p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -328,9 +388,9 @@
             </div>
         </div>
     </div>
-    <script src="assets/js/backtotop.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/backtotop.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 </html>

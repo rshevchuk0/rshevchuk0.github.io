@@ -10,10 +10,13 @@
     }
 }
 body {
-    background: rgba(243,243,243,1);
+    background: rgba(249,249,249,1);
+    //background: #444;
+    //background-color: #282d32;
 
     .card, .modal-body {
         background: rgba(249,249,249,1);
+        
     }
 
     .modal-header {
@@ -25,7 +28,7 @@ body {
         padding-bottom: 15px;
 
         #restaurantCarousel {
-            margin-top: 25px;
+            //margin-top: 25px;
             margin-bottom: 15px;
         }
     }

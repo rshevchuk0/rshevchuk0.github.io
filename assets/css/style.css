@@ -8,7 +8,7 @@
     height: auto; }
 
 body {
-  background: #f3f3f3; }
+  background: #f9f9f9; }
   body .card, body .modal-body {
     background: #f9f9f9; }
   body .modal-header {
@@ -17,7 +17,6 @@ body {
     padding-top: 15px;
     padding-bottom: 15px; }
     body main #restaurantCarousel {
-      margin-top: 25px;
       margin-bottom: 15px; }
 
 .modal .modal-body .form-control {

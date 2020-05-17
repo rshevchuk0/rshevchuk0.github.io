@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Кейтеринг C'est la vie</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/initial-style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/Header-Dark.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <title>Зворотній зв'язок</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/initial-style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="../assets/css/Map.css">
 </head>
 <body>
     <button onclick="topFunction()" id="backtotop" title="Вгору">&uarr;</button>
@@ -34,8 +35,8 @@
                 <div class="container hero">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
-                            <h1 class="text-center" style="font-family: Ubuntu, sans-serif;">Кейтеринг<br /> &quot;C&#39;est la vie&quot;<br /></h1>
-                            <p style="text-align: center;color: rgb(255,255,255);font-family: Ubuntu, sans-serif;">Ви можете відчути французьку атмосферу використавши послуги кейтерингу &quot;C&#39;est la vie&quot;...</p>
+                            <h1 class="text-center" style="font-family: Ubuntu, sans-serif;">Зворотній зв'язок</h1>
+                            <p style="text-align: center;color: rgb(255,255,255);font-family: Ubuntu, sans-serif;">Якщо Ви маєте запитання або побажання...</p>
                         </div>
                     </div>
                 </div>
@@ -43,39 +44,32 @@
         </div>
     </header>
     <main role="main" class="container">
-        <div class="starter-main">
-            <h1>Що таке кейтеринг?</h1>
-            <p class="lead">Кейтеринг - сервіс виїзного обслуговування, що дозволяє організувати різні заходи в будь-якому зручному для Вас місці або приміщенні. Під кейтерингом ми маємо на увазі не тільки приготування їжі і доставка, а й обслуговування персоналом, сервірування, оформлення столу, розлив і подача напоїв гостям.</p>
-        </div>
-        <div class="album">
-            <div class="container">
+        <h4 class="mb-3">Є запитання?</h4>
+        <div class="container">
+            <form novalidate class="needs-validation">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="assets/img/catering1.jpg" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text text-center">Банкет</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="assets/img/catering2.jpg" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text text-center">Фуршет</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="assets/img/catering3.jpg" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text text-center">Пікнік</p>
-                            </div>
+                    <div class="col-md mb-3">
+                        <label for="firstName">Ім'я</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Сергій" value="" required>
+                        <div class="invalid-feedback">
+                            Як до вас звертатись?
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="email">E-mail адреса <span class="text-muted">(для зворотнього звязку)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@ukr.net" required>
+                    <div class="invalid-feedback">
+                        Введіть коректну e-mail адресу.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="custQuestion">Поле для вводу</label>
+                    <textarea id="custQuestion" class="form-control" placeholder="Добрий день, хочу звернутися до Вас..."></textarea>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block mb-3" type="submit">Відіслати</button>
+            </form>
         </div>
     </main>
     <footer class="footer-dark">
@@ -96,15 +90,14 @@
                         <li><a href="details.html">Додаткова інформація</a></li>
                     </ul>
                 </div>
-                <div class="col item social"><a href="#"><img src="assets/img/facebook-icon-1.png"></a><a href="#"><img src="assets/img/YouTube-icon.png"></a><a href="#"><img src="assets/img/telegram-icon.png"></a></div>
+                <div class="col item social"><a href="#"><img src="../assets/img/facebook-icon-1.png"></a><a href="#"><img src="../assets/img/YouTube-icon.png"></a><a href="#"><img src="../assets/img/telegram-icon.png"></a></div>
             </div>
             <p class="copyright">C'est la vie Restaurant</p>
         </div>
     </footer>
-
-    <script src="assets/js/backtotop.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/backtotop.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 </html>
