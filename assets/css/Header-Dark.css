@@ -82,21 +82,6 @@
       transition: background-color 0.25s; }
     .header-dark .navbar .action-button:hover {
       background: #269d9d; }
-  .header-dark .navbar .form-inline label {
-    color: #ccc; }
-  .header-dark .navbar .form-inline .search-field {
-    display: inline-block;
-    width: 80%;
-    background: none;
-    border: none;
-    border-bottom: 1px solid transparent;
-    border-radius: 0;
-    color: #ccc;
-    box-shadow: none;
-    color: inherit;
-    transition: border-bottom-color 0.3s; }
-    .header-dark .navbar .form-inline .search-field:focus {
-      border-bottom: 1px solid #ccc; }
   .header-dark .hero {
     margin-top: 60px; }
     .header-dark .hero h1 {

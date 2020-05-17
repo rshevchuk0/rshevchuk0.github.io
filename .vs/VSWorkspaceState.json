@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\scss"
+    "\\assets\\scss",
+    "\\uk"
   ],
-  "SelectedNode": "\\assets\\scss\\modalWindow.scss",
+  "SelectedNode": "\\uk",
   "PreviewInSolutionExplorer": false
 }
