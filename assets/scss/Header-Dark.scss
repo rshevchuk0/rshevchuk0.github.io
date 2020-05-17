@@ -1,5 +1,5 @@
 .header-dark {
-	background: url(../../assets/img/mountain_bg.jpg) #444;
+	background: url(../../assets/img/image.jpg) #444;
 	background-size: cover;
 	padding-bottom: 80px;
 
@@ -45,6 +45,9 @@
 			&:hover {
 				background: none;
 			}
+		}
+		.nav .nav-item .nav-link {
+			font-size: 1.4rem;
 		}
 	}
 

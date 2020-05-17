@@ -1,5 +1,5 @@
 .header-dark {
-  background: url(../../assets/img/mountain_bg.jpg) #444;
+  background: url(../../assets/img/image.jpg) #444;
   background-size: cover;
   padding-bottom: 80px; }
   .header-dark .navbar {
@@ -30,6 +30,8 @@
       border-color: #747474; }
       .header-dark .navbar .navbar-toggler:hover {
         background: none; }
+    .header-dark .navbar .nav .nav-item .nav-link {
+      font-size: 1.4rem; }
   .header-dark .navbar-toggler:focus {
     background: none; }
   .header-dark .navbar .navbar-toggler {
