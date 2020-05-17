@@ -21,18 +21,12 @@
         color: #f0f0f0; }
     .header-dark .navbar .navbar-collapse span {
       margin-top: 5px; }
-      .header-dark .navbar .navbar-collapse span .login {
-        color: #d9d9d9;
-        margin-right: .5rem;
-        text-decoration: none; }
-        .header-dark .navbar .navbar-collapse span .login:hover {
-          color: #fff; }
     .header-dark .navbar .navbar-toggler {
       border-color: #747474; }
       .header-dark .navbar .navbar-toggler:hover {
         background: none; }
     .header-dark .navbar .nav .nav-item .nav-link {
-      font-size: 1.4rem; }
+      font-size: 1.2rem; }
   .header-dark .navbar-toggler:focus {
     background: none; }
   .header-dark .navbar .navbar-toggler {
