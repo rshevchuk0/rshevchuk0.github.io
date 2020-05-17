@@ -87,14 +87,62 @@
         <div class="modal-w-content">
             <div class="modal-w-header">
                 <span class="close-window">&times;</span>
-                <h2>Modal Header</h2>
+                <h1>Замовлення</h1>
+                <p>Заповніть форму для замовлення столику.</p>
             </div>
             <div class="modal-w-body">
-                <p>Some text in the Modal Body</p>
-                <p>Some other text...</p>
+                <form id="bookMdl" action="action_page.php">
+                    <div class="container-mdl">
+                        <label for="tableNum"><b>Столик: </b></label>
+                        <select disabled id="tableNum">
+                            <option value="1">Столик 1</option>
+                            <option value="2">Столик 2</option>
+                            <option value="3">Столик 3</option>
+                            <option value="4">Столик 4</option>
+                            <option value="5">Столик 5</option>
+                            <option value="6">Столик 6</option>
+                            <option value="7">Столик 7</option>
+                            <option value="8">Столик 8</option>
+                            <option value="9">Столик 9</option>
+                            <option value="10">Столик 10</option>
+                            <option value="11">Столик 11</option>
+                            <option value="12">Столик 12</option>
+                            <option value="13">Столик 13</option>
+                            <option value="14">Столик 14</option>
+                            <option value="15">Столик 15</option>
+                            <option value="16">Столик 16</option>
+                            <option value="17">Столик 17</option>
+                            <option value="18">Столик 18</option>
+                            <option value="19">Столик 19</option>
+                            <option value="20">Столик 20</option>
+                            <option value="21">Столик 21</option>
+                            <option value="22">Столик 22</option>
+                            <option value="23">Столик 23</option>
+                            <option value="24">Столик 24</option>
+                            <option value="25">Столик 25</option>
+                            <option value="26">Столик 26</option>
+                            <option value="27">Столик 27</option>
+                            <option value="28">Столик 28</option>
+                            <option value="29">Столик 29</option>
+                            <option value="30">Столик 30</option>
+                            <option value="31">Столик 31</option>
+                            <option value="32">Столик 32</option>
+                        </select>
+                        <br />
+                        <label for="first-name"><b>Ім'я</b></label>
+                        <input type="text" placeholder="Петро" name="first-name" required>
+
+                        <label for="telephone-num"><b>Номер телефону</b></label>
+                        <input type="tel" placeholder="+380123456789" name="telephone-num" required>
+
+                        <label for="email-inp"><b>Email адреса</b></label>
+                        <input type="email" placeholder="example@ukr.net" name="email-inp">
+
+                    </div>
+                </form>
             </div>
             <div class="modal-w-footer">
-                <h3>Modal Footer</h3>
+                <button form="bookMdl" type="submit" class="bookbtn">Замовити</button>
             </div>
         </div>
     </div>

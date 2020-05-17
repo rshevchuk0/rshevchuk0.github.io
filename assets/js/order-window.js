@@ -1,9 +1,11 @@
 var modal = document.getElementById("mdl");
+var tablenum = document.getElementById("tableNum");
 
 function stopDefAction(e) {
     e.preventDefault();
     if (e.target != e.currentTarget) {
         var clicked = e.target.title;
+        tablenum.value = clicked;
         modal.style.display = "block";
         console.log('click event triggered at ' + clicked);
     }
