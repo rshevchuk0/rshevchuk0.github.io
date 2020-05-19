@@ -25,6 +25,7 @@
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="booking.html">Замовлення</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="catering.html">Кейтеринг</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="feedback.html">Зворотній зв'язок</a></li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -39,7 +40,7 @@
             </div>
         </div>
     </header>
-    <main role="main" class="container">
+    <main class="container">
         <div id="restaurantCarousel" class="carousel slide card mb-4" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -149,229 +150,227 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <form action="booking.html" class="regForm px-3 py-3" id="form1">
-                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineClassic" role="button" aria-expanded="false" aria-controls="cuisineClassic">Класичне меню</a>
-                            <div id="cuisineClassic" class="album collapse">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/steak_rossini.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Яловичина Россіні з фуагра <br />574 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/entrecote_simmenthal.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Антрикот Сименталь з соусом бордле <br />633 ₴<small>/порція</small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/tartar-sharole.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Тартар з яловичини Шароле <br />128 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                    <div class="modal-body px-3 py-3">
+                        <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineClassic" role="button" aria-expanded="false" aria-controls="cuisineClassic">Класичне меню</a>
+                        <div id="cuisineClassic" class="album collapse">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/steak_rossini.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Яловичина Россіні з фуагра <br />574 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/risotto_mushy.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Різотто з грибами та пармезаном <br />232 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/entrecote_simmenthal.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Антрикот Сименталь з соусом бордле <br />633 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/poached-egg.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Яйце пашот з трюфелем <br />101 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/scalop-lime.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Ескалоп з лаймом та базиліком <br />498 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/tartar-sharole.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Тартар з яловичини Шароле <br />128 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineMeat" role="button" aria-expanded="false" aria-controls="cuisineMeat">М'ясні страви</a>
-                            <div id="cuisineMeat" class="album collapse">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/rib-meat.png" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Свинні реберця по-іберійски зі смаженими білими грибами <br />253 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/turkey.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Індичка по-селянскьки з трюфелем та сирними чіпсами <br />384 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/marble-steak.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Мармурова яловичина на грилі з фуагра <br />1300 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/risotto_mushy.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Різотто з грибами та пармезаном <br />232 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/lamb-hazelnut.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Запечене філе ягня з волосським горіхом <br />424 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/poached-egg.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Яйце пашот з трюфелем <br />101 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
-                                        </div>                                       
-                                        <div class="col-md-6">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/beef-cut.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Вирізка яловича <br />923 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/scalop-lime.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Ескалоп з лаймом та базиліком <br />498 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineFish" role="button" aria-expanded="false" aria-controls="cuisineFish">Рибні меню</a>
-                            <div id="cuisineFish" class="album collapse">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/scalop-stuffed.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Ескалоп фарширований молюсками <br />1128 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/cod.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Запечена тріска із лангустином <br />633 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/seabass1.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Філе сібаса по-іберійськи <br />384 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                        </div>
+                        <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineMeat" role="button" aria-expanded="false" aria-controls="cuisineMeat">М'ясні страви</a>
+                        <div id="cuisineMeat" class="album collapse">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/rib-meat.png" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Свинні реберця по-іберійски зі смаженими білими грибами <br />253 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/sole-grill.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Філе палтуса на грилі <br />386 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/turkey.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Індичка по-селянскьки з трюфелем та сирними чіпсами <br />384 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/seabass2.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Морський окунь запечений у соляному мішечку <br />562 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/marble-steak.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Мармурова яловичина на грилі з фуагра <br />1300 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineDesserts" role="button" aria-expanded="false" aria-controls="cuisineDesserts">Десерти</a>
-                            <div id="cuisineDesserts" class="album collapse">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/poached-pear.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Запечена ромова груша без скоринки із дипетриксом <br />136 ₴<small>/порція</small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/chocolate.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Формований злиток з шоколаду та лісних горіхів <br />98 ₴<small>/порція</small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/yuzu.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Клементина з Юзу <br />50 ₴<small>/порція</small><br />&nbsp;</p>
-                                                </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/lamb-hazelnut.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Запечене філе ягня з волосським горіхом <br />424 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/crepe-suzette.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Креп-сюзет <br />250 ₴<small>/порція</small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/choco-mousse.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Гарячий шоколадний мус <br />110 ₴<small>/порція</small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="card mb-4 shadow-sm">
-                                                <img src="../assets/img/cuisine/cheese-cake.jpg" class="bd-placeholder-img card-img-top">
-                                                <div class="card-body">
-                                                    <p class="card-text text-center">Чізкейк Ламері <br />98 ₴<small>/порція</small></p>
-                                                </div>
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/beef-cut.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Вирізка яловича <br />923 ₴<small>/порція</small><br />&nbsp;</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                        <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineFish" role="button" aria-expanded="false" aria-controls="cuisineFish">Рибні меню</a>
+                        <div id="cuisineFish" class="album collapse">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/scalop-stuffed.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Ескалоп фарширований молюсками <br />1128 ₴<small>/порція</small><br />&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/cod.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Запечена тріска із лангустином <br />633 ₴<small>/порція</small><br />&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/seabass1.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Філе сібаса по-іберійськи <br />384 ₴<small>/порція</small><br />&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/sole-grill.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Філе палтуса на грилі <br />386 ₴<small>/порція</small><br />&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/seabass2.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Морський окунь запечений у соляному мішечку <br />562 ₴<small>/порція</small><br />&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-secondary form-control" data-toggle="collapse" href="#cuisineDesserts" role="button" aria-expanded="false" aria-controls="cuisineDesserts">Десерти</a>
+                        <div id="cuisineDesserts" class="album collapse">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/poached-pear.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Запечена ромова груша без скоринки із дипетриксом <br />136 ₴<small>/порція</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/chocolate.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Формований злиток з шоколаду та лісних горіхів <br />98 ₴<small>/порція</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/yuzu.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Клементина з Юзу <br />50 ₴<small>/порція</small><br />&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/crepe-suzette.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Креп-сюзет <br />250 ₴<small>/порція</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/choco-mousse.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Гарячий шоколадний мус <br />110 ₴<small>/порція</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img src="../assets/img/cuisine/cheese-cake.jpg" class="bd-placeholder-img card-img-top">
+                                            <div class="card-body">
+                                                <p class="card-text text-center">Чізкейк Ламері <br />98 ₴<small>/порція</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -386,25 +385,23 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form action="booking.html" class="regForm px-3 py-3" id="form1">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">Традиційні французькі вина (винна карта)</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">Міцні алкогольні напої</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">Французький кон'як</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">Ликери</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">Аперетиви</div>
-                                </div>
+                        <div class="container px-3 py-3">
+                            <div class="row">
+                                <div class="col">Традиційні французькі вина (винна карта)</div>
                             </div>
-                        </form>
+                            <div class="row">
+                                <div class="col">Міцні алкогольні напої</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Французький кон'як</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Ликери</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Аперетиви</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
