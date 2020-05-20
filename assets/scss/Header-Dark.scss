@@ -25,11 +25,12 @@
 				color: #f0f0f0;
 			}
 		}
-
-		.navbar-collapse span {
-			margin-top: 5px;
-
-			
+		.navbar-nav .nav-item {
+			//vertical-align: middle;
+			img {
+				margin-bottom: 2px;
+				height:16px;
+			}
 		}
 
 		.navbar-toggler {
@@ -40,7 +41,7 @@
 			}
 		}
 		.nav .nav-item .nav-link {
-			font-size: 1.2rem;
+			font-size: 1rem;
 		}
 	}
 
@@ -71,25 +72,6 @@
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 			background-color: #fff;
 			border-radius: 2px;
-		}
-
-		.dropdown-menu {
-			.dropdown-item {
-				&:focus {
-					line-height: 2;
-					font-size: 14px;
-					color: #37434d;
-					background: #ebeff1;
-				}
-
-				line-height: 2;
-				font-size: 14px;
-				color: #37434d;
-			}
-
-			.drodown-item:hover {
-				background: #ebeff1;
-			}
 		}
 
 		.action-button {
